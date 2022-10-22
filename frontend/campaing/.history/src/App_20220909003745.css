@@ -1,0 +1,15 @@
+.CardWrapper{
+  margin-top: 20px;
+  display: grid;
+  height: auto;
+  background-color: black;
+  /* grid-template-columns: 300px 300px 300px; */
+  grid-template-columns: repeat(3,1fr);
+  /* grid-template-columns: 1fr 1fr,1fr; */
+  /* grid-column-gap: 30px;
+  grid-row-gap: 30px; */
+  grid-gap: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
